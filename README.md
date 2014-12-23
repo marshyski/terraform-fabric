@@ -14,6 +14,13 @@ Problems Solved
  
  - Sequential tasks for complex deployments, or wait till CM tools like Puppet to finish it's bootstrapping activities.
 
+Run
+------
+
+    terraform apply
+    
+    fab -f fabfile.py --skip-bad-hosts -D --abort-on-prompts wait test
+
 Fill Out These Files
 -----------------------
 **configurations.py**:  (SSH location, login username)
