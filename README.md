@@ -16,12 +16,12 @@ Problems Solved
 
 Fill Out These Files
 -----------------------
-configurations.py:  (SSH location, login name)
+**configurations.py**:  (SSH location, login username)
 
     KEY_FILE = '/Users/marcinot/ssh/default-ssh.pem'
     USERNAME = 'default-ssh'
 
-terraform.tfvars:  (AWS keys)
+**terraform.tfvars**:  (AWS keys)
 
     access_key = ""
     secret_key = ""
