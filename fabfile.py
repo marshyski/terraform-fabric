@@ -3,7 +3,6 @@ from fabric.api import sudo, env, put, run
 import paramiko
 import configuration as config
 import sys, os, time
-from subprocess import call
 
 if os.stat('hosts_file').st_size == 0:
   print "hosts_file is empty\n"
