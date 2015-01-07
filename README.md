@@ -19,7 +19,7 @@ Run
 
     terraform apply
     
-    fab -f fabfile.py --skip-bad-hosts -D --abort-on-prompts wait test
+    fab wait test
 
 Fill Out These Files
 -----------------------

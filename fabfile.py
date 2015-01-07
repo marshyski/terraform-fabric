@@ -14,6 +14,9 @@ env.port = '22'
 env.key_filename = config.KEY_FILE
 env.warn_only = True
 env.connection_attempts = 60
+env.abort_on_prompts = True
+env.disable_known_hosts = True
+env.skip_bad_hosts = True
 
 ssh = paramiko.SSHClient()
 ssh.set_missing_host_key_policy(paramiko.AutoAddPolicy())
